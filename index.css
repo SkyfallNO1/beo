@@ -1,0 +1,106 @@
+.*{
+	margin: 0;
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.header-box{
+	position: relative;
+	height: 100vh;
+	background: #192314;
+	overflow: hidden;
+}
+
+.header-pic-box{
+	width: 652px;
+	height: 499px;
+	background: url(beosound-shape-mobile.jpg);
+    background-size:100% auto;
+	float: right;
+}
+
+.header-test-box{
+	font-family: SimHei,"黑体", Hiragino Sans GB, "冬青黑体", sans-serif;
+    width: 512px;
+	height: 208px;
+	/*background: #4CAF50;*/
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+.description-body1{
+	margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.description-body2{
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 3.75px;
+    
+    margin-top: 15px;
+    margin-bottom: 24px;
+    
+    font-weight: normal;
+    color: #fff;
+}
+.description-body3{
+    font-size: 13px;
+    
+    line-height: 21px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.button{
+	display: block;
+    width: 202px;
+    line-height: 21px;
+    padding: 10px 40px;
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    /*white-space: normal;*/
+}
+.middle-box{
+   /* height: 410px;*/
+    /*padding-bottom: 100px;*/
+    background: url(img-bg-1350.jpg);
+    background-size: 100% auto;
+    background-position: 0px -158px;
+
+}
+.threebox{
+    width: 705px;
+    height: 353px;
+    margin: 0 auto;
+    margin-top: -48px;
+    position: relative;
+    z-index:100;
+}
+.picture{
+	float: left;
+    width: 235px;
+    height: 353px;
+    position: relative;
+}
+.picture h4 {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.picture img {
+    width: 100%;
+}
