@@ -1,10 +1,12 @@
 .*{
 	margin: 0;
+    box-sizing:border-box;
 }
 
 .container{
 	width: 1024px;
 	margin: 0 auto;
+    position: relative;
 }
 
 .header-box{
@@ -17,7 +19,7 @@
 .header-pic-box{
 	width: 652px;
 	height: 499px;
-	background: url(beosound-shape-mobile.jpg);
+	background: url(green-beosound-shape-desktop.jpg);
     background-size:100% auto;
 	float: right;
 }
@@ -45,13 +47,12 @@
     font-size: 30px;
     line-height: 39px;
     letter-spacing: 3.75px;
-    
     margin-top: 15px;
     margin-bottom: 24px;
-    
     font-weight: normal;
     color: #fff;
 }
+
 .description-body3{
     font-size: 13px;
     
@@ -59,6 +60,7 @@
     margin-bottom: 20px;
     color: #fff;
 }
+
 .button{
 	display: block;
     width: 202px;
@@ -70,14 +72,15 @@
     text-align: center;
     /*white-space: normal;*/
 }
+
 .middle-box{
    /* height: 410px;*/
-    /*padding-bottom: 100px;*/
+    padding-bottom: 100px;
     background: url(img-bg-1350.jpg);
     background-size: 100% auto;
     background-position: 0px -158px;
-
 }
+
 .threebox{
     width: 705px;
     height: 353px;
@@ -86,12 +89,14 @@
     position: relative;
     z-index:100;
 }
+
 .picture{
 	float: left;
     width: 235px;
     height: 353px;
     position: relative;
 }
+
 .picture h4 {
     position: absolute;
     top: -10px;
@@ -101,6 +106,204 @@
     font-weight: 500;
     line-height: 24px;
 }
+
 .picture img {
     width: 100%;
+}
+
+.top-menu{
+    width: 986px;
+    height: 57px;
+    display: flex;
+    padding:0 22px;
+    justify-content:space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+.left,.right{
+    height: 100%;
+    width: 150px;
+    line-height: 57px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.left{
+    background: url(产品.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.right{
+    background: url(菜单.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.center{
+    height: 100%;
+    line-height: 57px;
+    width: 190px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+.row{
+    width: 836px;
+    height: 158px;
+    
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin:0 auto;
+}
+.row1{
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    margin-bottom:18px;
+}
+.row2{
+    letter-spacing: 4px;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom:40px;
+}
+.product-list{
+
+    margin:0 auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+.product{
+    position: relative;
+    
+    width: 512px;
+    height: 512px;
+}
+.product:nth-child(1){
+    background:url(桌子.jpg);
+    background-size: 100% auto;
+}
+.product:nth-child(2){
+    background:url(电视.jpg);
+    background-size: 100% auto;
+}
+
+.product:nth-child(3){
+    background:url(音响.jpg);
+    background-size: 100% auto;
+}
+
+.product:nth-child(4){
+    background:url(小东西.jpg);
+    background-size: 100% auto;
+}
+
+.product:nth-child(5){
+    background:url(光碟.jpg);
+    background-size: 100% auto;
+}
+
+.product:nth-child(6){
+    background:url(小姐姐.jpg);
+    background-size: 100% auto;
+}
+.product h4{
+    position: absolute;
+    top: 27px;
+    left: 31px;
+    color: #fff;
+    font-size: 10.5px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.img{
+    width: 705px;
+    height: 168px;
+    /*background: red;*/
+    margin: 0 auto;
+    position: relative;
+}
+.img1{
+    width: 176px;
+    height: 168px;
+    position: absolute;
+    background: url(design-as-a-group-effort-01.jpg);
+    background-size: 100% auto;
+}
+.img2{
+    left: 176px;
+    width: 176px;
+    height: 168px;
+    position: absolute;
+    background: url(the-krane.jpg);
+    background-size: 100% auto;
+}
+.img3{
+    left: 352px;
+    width: 356px;
+    height: 168px;
+    position: absolute;
+    background: url(harmonies-story.jpg);
+    background-size: 100% auto;
+}
+.word{
+    width: 705px;
+    height: 176px;
+    margin: 0 auto;
+    position: relative;
+}
+.case1{
+    width: 167px;
+    height: 126px;
+    position: absolute; 
+   
+    margin-top:30px; 
+    padding-right: 8.831px;
+}
+.case2{
+    left: 177px;
+    width: 167px;
+    height: 105px;
+    position: absolute; 
+     
+    margin-top:30px; 
+    padding-right: 8.831px;  
+}
+.case3{
+    left: 352px;
+    width: 335px;
+    height: 105px;
+    position: absolute;  
+     
+    margin-top:30px; 
+    padding-right: 17.641px; 
+}
+.description-case1{
+    margin-bottom: 18px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 24px;
+    color: #000;
+}
+.description-case2{
+    
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 23px;
+    color: #000;
+    opacity: 0.6;
 }
